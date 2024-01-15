@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+
+
+to use academicons.
+
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+
+
+\ifxetexorluatex
+  
+  \setmainfont{Carlito}
+\else
+  
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+
+\definecolor{VividBrown}{HTML}{a68b3c}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{555555}
+\colorlet{heading}{VividBrown}
+\colorlet{accent}{VividBrown}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Rafael de Almeida Borges}
+\tagline{Fron-end Developer}
+
+\photo{2.5cm}{profile}
+\personalinfo{
+
+
+	\email{r.borges190693@gmail.com}
+	\phone{+55 22 99919 1420}
+	\location{Nova Friburgo - RJ}
+
+	\linkedin{linkedin.com/in/rafaelborges93}
+	\github{github.com/RafaelBorges93} 
+
+  
+}
+
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+
+\AtBeginEnvironment{itemize}{\small}
+
+
+
+
+
+\cvsection[page1sidebar]{Sobre}
+
+\cvevent{}{}{}{}
+\begin{itemize}
+\text{
+Como desenvolvedor em JavaScript, TypeScript, NextJS e ReactJS, possuo uma sólida compreensão das tecnologias fundamentais para o desenvolvimento web moderno. Ao longo da minha carreira, adquiri habilidades essenciais, incluindo a construção de interfaces de usuário dinâmicas e responsivas, o desenvolvimento de aplicativos escaláveis e a implementação de soluções eficientes usando as melhores práticas do setor. Além disso, minha experiência inclui soluções criativas usando RPA, a integração de APIs, a manipulação eficiente do estado da aplicação e a resolução proativa de desafios complexos de desenvolvimento. Sou apaixonado por aprender e implementar as últimas tecnologias para criar experiências de usuário excepcionais e soluções robustas. Com uma abordagem orientada a resultados e colaborativa, estou comprometido em impulsionar projetos de software para o sucesso.}
+\end{itemize}
+\cvsection[page1sidebar]{Experiência}
+
+\cvevent{Desenvolvedor Front-end}{DocTeka}{04/2023 -- atualmente}{São Paulo, SP }
+\begin{itemize}
+\item Execução de projetos responsivos usando Next.js, React.js, TypeScript, Tailwind e Styled-components;
+\item Gerenciamento de versão usando GitHub e Bitbucket;
+\item Gerenciamento de projeto com metodologias ágeis utilizando o Jira Software;
+\item Planejamento e execução de projetos para aplicação de visualização e assinatura de PDF;
+\item Participação na elaboração e execução de tarefas para incrementação e melhoria do produto incluindo UI/UX;
+\item Desenvolvimento de soluções de Automação de Processos Robóticos (RPA) para otimizar fluxos de trabalho, utilizando ferramentas como Electroneek Studio Pro.
+
+\end{itemize}
+
+\divider
+
+\cvevent{Desenvolvedor Front-end}{Cuponeria}{05/2022 -- 03/2023}{São Paulo, SP }
+\begin{itemize}
+\item Execução de projetos Web responsivos usando React.js, Next.js, TypeScript, Jest, Storybook, e Styled-components;  
+\item Gerenciamento de versão usando Bitbucket e Gitlab;
+\item Planejamento e execução de projetos para grandes empresas, como Ambev, Danone, Unilever, Bradesco, buscando entender suas necessidades para ajudar a definir o escopo do projeto;
+\item Participação na elaboração e execução de tarefas para incrementação e melhoria do produto;
+\item Gerenciamento de projeto com metodologias ágeis utilizando o Jira Software;
+\item Colaboração com novos membros da equipe apresentando o produto e seus aspectos técnicos;
+\end{itemize}
+
+
+\clearpage
+
+
+
+\end{document}
